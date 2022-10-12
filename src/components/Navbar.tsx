@@ -50,7 +50,7 @@ function Navbar() {
     <AppBar position="sticky" color="primary">
       <StyledToolbar>
         <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }}>
-          Navber
+          Note with MUI
         </Typography>
         <Pets sx={{ display: { xs: "block", sm: "none" } }} />
         <Search>
