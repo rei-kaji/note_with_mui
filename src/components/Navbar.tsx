@@ -54,7 +54,10 @@ function Navbar() {
         </Typography>
         <Pets sx={{ display: { xs: "block", sm: "none" } }} />
         <Search>
-          <InputBase placeholder="search..."></InputBase>
+          <InputBase
+            sx={{ color: "black" }}
+            placeholder="search..."
+          ></InputBase>
         </Search>
         <Icons>
           <Badge badgeContent={4} color="error">
