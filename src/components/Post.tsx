@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  Box,
   Card,
   CardHeader,
   Avatar,
@@ -9,16 +8,9 @@ import {
   CardContent,
   Typography,
   CardActions,
-  Collapse,
   Checkbox,
 } from "@mui/material";
-import {
-  ExpandMore,
-  Favorite,
-  FavoriteBorder,
-  MoreVert,
-  Share,
-} from "@mui/icons-material";
+import { Favorite, FavoriteBorder, MoreVert, Share } from "@mui/icons-material";
 
 const tsuyu = require("../images/tsuyu.jpg");
 
