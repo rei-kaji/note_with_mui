@@ -39,7 +39,7 @@ const Add = () => {
   return (
     <>
       <Tooltip
-        title="Crete Post"
+        title="Create Post"
         sx={{
           position: "fixed",
           bottom: 20,
